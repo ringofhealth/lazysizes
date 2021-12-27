@@ -34,7 +34,7 @@ function l(window, document, Date) { // Pass in the window Date function also fo
 			init: true,
 			expFactor: 1.5,
 			hFac: 0.8,
-			loadMode: 2,
+			loadMode: 1,
 			loadHidden: true,
 			ricTimeout: 0,
 			throttleDelay: 125,
@@ -630,7 +630,7 @@ function l(window, document, Date) { // Pass in the window Date function also fo
 
 			isCompleted = true;
 
-			lazySizesCfg.loadMode = 3;
+			lazySizesCfg.loadMode = 1;
 
 			throttledCheckElements();
 
